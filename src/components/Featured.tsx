@@ -4,7 +4,7 @@ import { featuredProducts } from "@/data";
 
 const Featured = () => {
   return (
-    <div className="w-screen overflow-x-scroll text-red-500 ">
+    <div className="max-w-screen overflow-x-auto text-red-500 w-full">
       {/*wrapper*/}
       <div className="w-max flex">
         {/*single item*/}
